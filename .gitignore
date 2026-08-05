@@ -1,0 +1,24 @@
+# Godot 4+ specific ignores
+.godot/editor
+.godot/shader_cache
+.godot/imported/*.csv
+.godot/imported/*.md5
+.godot/imported/*.ctex
+.godot/imported/*.fontdata
+.godot/imported/*.oggvorbisstr
+.godot/.gdignore
+.godot/uid_cache.bin
+
+
+# Godot-specific ignores
+*.import
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
